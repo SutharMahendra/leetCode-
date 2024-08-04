@@ -4,7 +4,7 @@
 
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-        String str = "";
+
         char character;
         int count = 0;
         int result = 0;
