@@ -23,7 +23,7 @@
         add 2 in map
     3. complement = 6-4 = 2
         map = {3,2}
-        now map contains 2 so it return new int arr with element complement and i 
+        now map contains 2 so it return new int arr with element complement and i
 
  */
 
