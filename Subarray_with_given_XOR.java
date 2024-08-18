@@ -60,7 +60,7 @@ public class Subarray_with_given_XOR {
         int count = 0;
         int xor = 0;
         map.put(0, 1);
-        int pivot = 1;
+
         for (int i = 0; i < A.size(); i++) {
             xor = xor ^ A.get(i);
 
