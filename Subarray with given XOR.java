@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Solution {
     public int solve(ArrayList<Integer> A, int B) {
         Map<Integer, Integer> map = new HashMap<>();
