@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Solution {
+public class Subarray_with_given_XOR {
     public int solve(ArrayList<Integer> A, int B) {
         Map<Integer, Integer> map = new HashMap<>();
         int count = 0;
