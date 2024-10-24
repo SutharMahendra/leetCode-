@@ -9,21 +9,26 @@
  * we make comparision between temp and temp2, bigger value will be connect with
  * the head and then move it forword
  * 
- * 
- * 
- * 
- * 
- * 
- * Definition for singly-linked list.
- * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode() {}
- * ListNode(int val) { this.val = val; }
- * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
  */
 class Solution {
+    // Definition for singly-linked list.
+    public class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode() {
+        }
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
+    }
+
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode temp = list1;
         ListNode temp2 = list2;
